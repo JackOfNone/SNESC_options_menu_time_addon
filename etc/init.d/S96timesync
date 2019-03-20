@@ -1,5 +1,7 @@
-if [ $(date '+%Y') -lt 2038 ]; then
-  hwclock -w
-fi
+#!/bin/sh
 
+while [ $(date '+%Y') -lt 2038 ]; do
+  hwclock -w
+  sleep 60
+done &
 
