@@ -1,0 +1,5 @@
+if [ $(date '+%Y') -lt 2038 ]; then
+  hwclock -w
+fi
+
+
