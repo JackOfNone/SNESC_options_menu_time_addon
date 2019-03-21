@@ -1,0 +1,2 @@
+date
+hwclock -w

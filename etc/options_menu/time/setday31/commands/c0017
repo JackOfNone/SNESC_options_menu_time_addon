@@ -1,0 +1,4 @@
+COMMAND_NAME=17
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=echo -n "17 " >> /etc/options_menu/time/setdatetime; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/sethour/commands/ --scriptPath %options_path%/time/sethour/scripts --title "Set Hour" &

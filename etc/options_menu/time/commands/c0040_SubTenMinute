@@ -1,4 +1,0 @@
-COMMAND_NAME=-10 Minutes
-COMMAND_TYPE=EXTERNAL
-RESTART_UI=FALSE
-COMMAND_STR=sh %script_dir%/10minsub.sh; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/commands/ --scriptPath %options_path%/time/scripts/ --title "Time Options" &

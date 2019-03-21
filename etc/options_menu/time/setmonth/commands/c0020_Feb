@@ -1,0 +1,4 @@
+COMMAND_NAME=February
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=a=$(cat /etc/options_menu/time/setdatetime); echo -n 02- >> /etc/options_menu/time/setdatetime;  if [ $(dc ${a::-1} 4 mod p) -eq 0 ]; then sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setday29/commands/ --scriptPath %options_path%/time/setday29/scripts --title "Set Day" ; else sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setday28/commands/ --scriptPath %options_path%/time/setday28/scripts --title "Set Day" ; fi &

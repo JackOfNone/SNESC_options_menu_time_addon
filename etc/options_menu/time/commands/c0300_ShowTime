@@ -1,3 +1,0 @@
-COMMAND_NAME=Show Clock
-COMMAND_TYPE=INTERNAL
-COMMAND_STR=sh /etc/options_menu/time/scripts/showtime.sh

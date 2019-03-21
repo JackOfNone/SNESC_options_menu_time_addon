@@ -1,0 +1,4 @@
+COMMAND_NAME=July
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=echo -n 07- >> /etc/options_menu/time/setdatetime; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setday31/commands/ --scriptPath %options_path%/time/setday31/scripts --title "Set Day" &

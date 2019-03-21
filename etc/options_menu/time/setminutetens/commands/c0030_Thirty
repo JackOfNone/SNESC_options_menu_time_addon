@@ -1,0 +1,4 @@
+COMMAND_NAME=30
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=echo -n 3 >> /etc/options_menu/time/setdatetime; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setminuteones/commands/ --scriptPath %options_path%/time/setminuteones/scripts --title "Set Minute (Ones)" &

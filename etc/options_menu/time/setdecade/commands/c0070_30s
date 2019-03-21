@@ -1,0 +1,4 @@
+COMMAND_NAME=2030's
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=echo -n 203 > /etc/options_menu/time/setdatetime; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setyear30s/commands/ --scriptPath %options_path%/time/setyear30s/scripts --title "Set Year" &

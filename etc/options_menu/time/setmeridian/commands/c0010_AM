@@ -1,0 +1,4 @@
+COMMAND_NAME=AM
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=echo -n $(cat %options_path%/time/settemphour): >> %options_path%/time/setdatetime; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setminutetens/commands/ --scriptPath %options_path%/time/setminutetens/scripts --title "Set Minute (Tens)" &
