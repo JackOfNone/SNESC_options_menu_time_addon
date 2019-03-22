@@ -1,4 +1,4 @@
 COMMAND_NAME=PM
 COMMAND_TYPE=EXTERNAL
 RESTART_UI=FALSE
-COMMAND_STR=dc 12 $(cat %options_path%/time/settemphour) add p > %options_path%/time/settemphour; if [ $(cat %options_path%/time/settemphour) -eq 24 ];then  echo -n 00:>> %options_path%/time/setdatetime; else echo -n $(cat %options_path%/time/settemphour): >> %options_path%/time/setdatetime; fi; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setminutetens/commands/ --scriptPath %options_path%/time/setminutetens/scripts --title "Set Minute (Tens)" &
+COMMAND_STR=dc 12 $(cat %options_path%/time/settemphour) add p > %options_path%/time/settemphour; if [ $(cat %options_path%/time/settemphour) -eq 24 ];then  echo -n 12:>> %options_path%/time/setdatetime; else echo -n $(cat %options_path%/time/settemphour): >> %options_path%/time/setdatetime; fi; sleep 0.05 && %options_path%/options --commandPath %options_path%/time/setminutetens/commands/ --scriptPath %options_path%/time/setminutetens/scripts --title "Set Minute (Tens)" &
