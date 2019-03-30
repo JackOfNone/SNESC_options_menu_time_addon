@@ -1,0 +1,4 @@
+COMMAND_NAME=Manually Configure Time
+COMMAND_TYPE=EXTERNAL
+RESTART_UI=FALSE
+COMMAND_STR=sleep 0.05 && %options_path%/options --commandPath %options_path%/time/manual/commands/ --scriptPath %options_path%/time/manual/scripts --title "Manually Configure Time" &
