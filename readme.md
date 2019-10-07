@@ -1,5 +1,6 @@
 ------------------------------
-Name: Options Menu Time Addon v0.6.1
+Name: Options Menu Time Addon
+Version: 1.0
 Creator: JackOfNone
 Category: System
 ------------------------------

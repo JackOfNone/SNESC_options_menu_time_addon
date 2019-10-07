@@ -1,7 +1,3 @@
 #!/bin/sh
-
-while [ $(date '+%Y') -lt 2038 ]; do
-  hwclock -w
-  sleep 60
-done &
+if [ $(date +%y) = 70 ]; then date -s "2000-01-01 12:00"; fi
 
